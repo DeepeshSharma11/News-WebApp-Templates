@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: news-webapp
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app -k uvicorn.workers.UvicornWorker
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
