@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>News 24 - Latest News Updates</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="News, Updates, Breaking News, Sports, Technology" name="keywords">
+        <meta content="Stay updated with the latest news from around the world" name="description">
+
+        <!-- Favicon -->
+        <link href="/static/img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="/static/lib/slick/slick.css" rel="stylesheet">
+        <link href="/static/lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="/static/css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Header Start -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="logo">
+                            <a href="/news">
+                                <img src="/static/img/logo.png" alt="News 24 Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="search">
+                            <input type="text" placeholder="Search news...">
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="social">
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header End -->
+
+
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="/news" class="nav-item nav-link active">Home</a>
+                            <a href="#sports" class="nav-item nav-link">Sports</a>
+                            <a href="#technology" class="nav-item nav-link">Tech</a>
+                            <a href="#fashion" class="nav-item nav-link">Fashion</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories</a>
+                                <div class="dropdown-menu">
+                                    <a href="#business" class="dropdown-item">Business</a>
+                                    <a href="#entertainment" class="dropdown-item">Entertainment</a>
+                                    <a href="#latest-news" class="dropdown-item">Latest News</a>
+                                    <a href="#popular-news" class="dropdown-item">Popular News</a>
+                                </div>
+                            </div>
+                            <a href="#top-news" class="nav-item nav-link">Top News</a>
+                            <a href="/news/contact" class="nav-item nav-link">Contact Us</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Top News Start-->
+        <div class="top-news" id="top-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 tn-left">
+                        <div class="tn-img">
+                            <img src="/static/img/top-news-1.jpg" alt="Breaking News" />
+                            <div class="tn-content">
+                                <div class="tn-content-inner">
+                                    <span class="tn-date"><i class="far fa-clock"></i>Today</span>
+                                    <a class="tn-title" href="#breaking-news">Global Climate Summit Reaches Historic Agreement</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 tn-right">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="/static/img/top-news-2.jpg" alt="Tech News" />
+                                    <div class="tn-content">
+                                        <div class="tn-content-inner">
+                                            <span class="tn-date"><i class="far fa-clock"></i>2 hours ago</span>
+                                            <a class="tn-title" href="#tech-updates">New AI Technology Breaks Performance Records</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="/static/img/top-news-3.jpg" alt="Sports News" />
+                                    <div class="tn-content">
+                                        <div class="tn-content-inner">
+                                            <span class="tn-date"><i class="far fa-clock"></i>4 hours ago</span>
+                                            <a class="tn-title" href="#sports">National Team Wins Championship After 20 Years</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="/static/img/top-news-4.jpg" alt="Business News" />
+                                    <div class="tn-content">
+                                        <div class="tn-content-inner">
+                                            <span class="tn-date"><i class="far fa-clock"></i>6 hours ago</span>
+                                            <a class="tn-title" href="#business">Stock Market Reaches All-Time High</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="tn-img">
+                                    <img src="/static/img/top-news-5.jpg" alt="Health News" />
+                                    <div class="tn-content">
+                                        <div class="tn-content-inner">
+                                            <span class="tn-date"><i class="far fa-clock"></i>8 hours ago</span>
+                                            <a class="tn-title" href="#health">Breakthrough in Cancer Treatment Research</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top News End-->
+
+
+        <!-- Category News Start-->
+        <div class="cat-news" id="sports">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2><i class="fas fa-baseball-ball"></i> Sports</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-1.jpg" alt="Football" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
+                                            <a class="cn-title" href="#">Football League Announces New Schedule</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-2.jpg" alt="Basketball" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
+                                            <a class="cn-title" href="#">NBA Star Signs Record-Breaking Contract</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-3.jpg" alt="Tennis" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>2 days ago</span>
+                                            <a class="cn-title" href="#">Grand Slam Tournament Begins Next Week</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="technology">
+                        <h2><i class="fas fa-laptop-code"></i> Technology</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-4.jpg" alt="Smartphone" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">New Smartphone Features Revolutionary Camera</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-5.jpg" alt="AI" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">AI Assistant Now Available for Public Testing</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-6.jpg" alt="Cybersecurity" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
+                                            <a class="cn-title" href="#">Major Cybersecurity Update Released</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category News End-->
+
+
+        <!-- Category News Start-->
+        <div class="cat-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6" id="business">
+                        <h2><i class="fas fa-chart-line"></i> Business</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-7.jpg" alt="Stock Market" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">Global Markets Show Strong Recovery</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-8.jpg" alt="Startup" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">Tech Startup Secures $50M Funding</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-9.jpg" alt="Economy" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
+                                            <a class="cn-title" href="#">Central Bank Announces New Policies</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6" id="entertainment">
+                        <h2><i class="fas fa-film"></i> Entertainment</h2>
+                        <div class="row cn-slider">
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-10.jpg" alt="Movie" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">Blockbuster Movie Breaks Box Office Records</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-11.jpg" alt="Music" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Today</span>
+                                            <a class="cn-title" href="#">Award-Winning Album Released Today</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cn-img">
+                                    <img src="/static/img/cat-news-12.jpg" alt="Celebrity" />
+                                    <div class="cn-content">
+                                        <div class="cn-content-inner">
+                                            <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
+                                            <a class="cn-title" href="#">Celebrity Wedding: All the Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category News End-->
+
+
+        <!-- Main News Start-->
+        <div class="main-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12" id="latest-news">
+                                <h2><i class="fas fa-newspaper"></i> Latest News</h2>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mn-img">
+                                            <img src="/static/img/latest-news.jpg" alt="Latest News" />
+                                        </div>
+                                        <div class="mn-content">
+                                            <a class="mn-title" href="#">Government Announces New Economic Stimulus Package</a>
+                                            <span class="mn-date"><i class="far fa-clock"></i>2 hours ago</span>
+                                            <p>
+                                                The government has unveiled a comprehensive economic stimulus package aimed at boosting recovery and creating new jobs across multiple sectors. Experts predict positive impacts...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/latest-news.jpg" alt="News 1" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">New Education Reform Bill Passed in Parliament</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>3 hours ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/latest-news.jpg" alt="News 2" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Major Infrastructure Project Approved</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>4 hours ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/latest-news.jpg" alt="News 3" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Healthcare System to Receive Major Upgrade</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>5 hours ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/latest-news.jpg" alt="News 4" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Environmental Protection Laws Strengthened</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>6 hours ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/latest-news.jpg" alt="News 5" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Tech Companies Announce Collaboration</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>7 hours ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12" id="popular-news">
+                                <h2><i class="fas fa-fire"></i> Popular News</h2>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="mn-img">
+                                            <img src="/static/img/popular-news.jpg" alt="Popular News" />
+                                        </div>
+                                        <div class="mn-content">
+                                            <a class="mn-title" href="#">Revolutionary Medical Discovery Announced</a>
+                                            <span class="mn-date"><i class="far fa-clock"></i>1 day ago</span>
+                                            <p>
+                                                Scientists have made a groundbreaking discovery that could potentially cure previously untreatable diseases. The research, spanning over a decade, shows promising results...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/popular-news.jpg" alt="Popular 1" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Space Mission Discovers New Planet</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>2 days ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/popular-news.jpg" alt="Popular 2" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Historic Peace Agreement Signed</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>3 days ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/popular-news.jpg" alt="Popular 3" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Record-Breaking Sports Achievement</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>4 days ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/popular-news.jpg" alt="Popular 4" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Major Film Festival Winners Announced</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>5 days ago</span>
+                                            </div>
+                                        </div>
+                                        <div class="mn-list">
+                                            <div class="mn-img">
+                                                <img src="/static/img/popular-news.jpg" alt="Popular 5" />
+                                            </div>
+                                            <div class="mn-content">
+                                                <a class="mn-title" href="#">Tech Innovation Award Winners Revealed</a>
+                                                <span class="mn-date"><i class="far fa-clock"></i>6 days ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-list"></i> Categories</h2>
+                                <div class="category">
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="far fa-newspaper"></i></span><a href="#national">National</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-globe"></i></span><a href="#international">International</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-chart-line"></i></span><a href="#business">Business</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-landmark"></i></span><a href="#politics">Politics</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-heart"></i></span><a href="#lifestyle">Lifestyle</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-laptop-code"></i></span><a href="#technology">Technology</a></li>
+                                        <li><span class="fa-li"><i class="fas fa-shopping-cart"></i></span><a href="#trades">Trades</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-tags"></i> Tags</h2>
+                                <div class="tags">
+                                    <a href="#breaking">Breaking</a>
+                                    <a href="#exclusive">Exclusive</a>
+                                    <a href="#analysis">Analysis</a>
+                                    <a href="#interview">Interview</a>
+                                    <a href="#opinion">Opinion</a>
+                                    <a href="#feature">Feature</a>
+                                    <a href="#investigation">Investigation</a>
+                                    <a href="#sports">Sports</a>
+                                    <a href="#entertainment">Entertainment</a>
+                                    <a href="#business">Business</a>
+                                    <a href="#technology">Technology</a>
+                                    <a href="#health">Health</a>
+                                    <a href="#education">Education</a>
+                                    <a href="#environment">Environment</a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-ad"></i> Advertisement</h2>
+                                <div class="image">
+                                    <a href="#"><img src="/static/img/adds-1.jpg" alt="Advertisement"></a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-bullhorn"></i> Featured Partners</h2>
+                                <div class="image">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href="#"><img src="/static/img/adds-2.jpg" alt="Partner 1"></a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href="#"><img src="/static/img/adds-2.jpg" alt="Partner 2"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main News End-->
+
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Quick Links</h3>
+                            <ul>
+                                <li><a href="/news">Home</a></li>
+                                <li><a href="#sports">Sports</a></li>
+                                <li><a href="#technology">Technology</a></li>
+                                <li><a href="#business">Business</a></li>
+                                <li><a href="#entertainment">Entertainment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Resources</h3>
+                            <ul>
+                                <li><a href="#latest-news">Latest News</a></li>
+                                <li><a href="#popular-news">Popular News</a></li>
+                                <li><a href="#top-news">Top News</a></li>
+                                <li><a href="/news/contact">Contact Us</a></li>
+                                <li><a href="#about">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Contact Info</h3>
+                            <div class="contact-info">
+                                <p><i class="fa fa-map-marker"></i>123 News Street, Media City</p>
+                                <p><i class="fa fa-envelope"></i>info@news24.com</p>
+                                <p><i class="fa fa-phone"></i>+1 (555) 123-4567</p>
+                                <div class="social">
+                                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
+                            <h3 class="title">Newsletter</h3>
+                            <div class="newsletter">
+                                <p>
+                                    Subscribe to our daily newsletter to receive the latest news updates directly in your inbox.
+                                </p>
+                                <form>
+                                    <input class="form-control" type="email" placeholder="Enter your email" required>
+                                    <button class="btn" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; 2024 News 24. All Rights Reserved</p>
+                    </div>
+                    <div class="col-md-6 template-by">
+                        <p>Delivering News You Can Trust</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="/static/lib/easing/easing.min.js"></script>
+        <script src="/static/lib/slick/slick.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="/static/js/main.js"></script>
+        
+        <!-- Smooth Scroll Script -->
+        <script>
+            $(document).ready(function(){
+                // Smooth scrolling for anchor links
+                $('a[href^="#"]').on('click', function(event) {
+                    if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top - 100
+                        }, 800, function(){
+                            window.location.hash = hash;
+                        });
+                    }
+                });
+                
+                // Highlight active section in navbar
+                $(window).on('scroll', function() {
+                    var scrollPos = $(document).scrollTop() + 200;
+                    $('.navbar-nav a').each(function() {
+                        var currLink = $(this);
+                        var refElement = $(currLink.attr("href"));
+                        if (refElement.length && refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                            $('.navbar-nav a').removeClass("active");
+                            currLink.addClass("active");
+                        }
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
