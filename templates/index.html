@@ -8,7 +8,7 @@
         <meta content="Stay updated with the latest news from around the world" name="description">
 
         <!-- Favicon -->
-        <link href="/static/img/favicon.ico" rel="icon">
+        <link href="{{ url_for('static', filename='img/favicon.ico') }}" rel="icon">
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
@@ -16,11 +16,11 @@
         <!-- CSS Libraries -->
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="/static/lib/slick/slick.css" rel="stylesheet">
-        <link href="/static/lib/slick/slick-theme.css" rel="stylesheet">
+        <link href="{{ url_for('static', filename='lib/slick/slick.css') }}" rel="stylesheet">
+        <link href="{{ url_for('static', filename='lib/slick/slick-theme.css') }}" rel="stylesheet">
 
         <!-- Template Stylesheet -->
-        <link href="/static/css/style.css" rel="stylesheet">
+        <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
     </head>
 
     <body>
@@ -31,7 +31,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="logo">
                             <a href="/news">
-                                <img src="/static/img/logo.png" alt="News 24 Logo">
+                                <img src="{{ url_for('static', filename='img/logo.png') }}" alt="News 24 Logo">
                             </a>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                 <div class="row">
                     <div class="col-md-6 tn-left">
                         <div class="tn-img">
-                            <img src="/static/img/top-news-1.jpg" alt="Breaking News" />
+                            <img src="{{ url_for('static', filename='img/top-news-1.jpg') }}" alt="Breaking News" />
                             <div class="tn-content">
                                 <div class="tn-content-inner">
                                     <span class="tn-date"><i class="far fa-clock"></i>Today</span>
@@ -109,7 +109,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="tn-img">
-                                    <img src="/static/img/top-news-2.jpg" alt="Tech News" />
+                                    <img src="{{ url_for('static', filename='img/top-news-2.jpg') }}" alt="Tech News" />
                                     <div class="tn-content">
                                         <div class="tn-content-inner">
                                             <span class="tn-date"><i class="far fa-clock"></i>2 hours ago</span>
@@ -120,7 +120,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="tn-img">
-                                    <img src="/static/img/top-news-3.jpg" alt="Sports News" />
+                                    <img src="{{ url_for('static', filename='img/top-news-3.jpg') }}" alt="Sports News" />
                                     <div class="tn-content">
                                         <div class="tn-content-inner">
                                             <span class="tn-date"><i class="far fa-clock"></i>4 hours ago</span>
@@ -131,7 +131,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="tn-img">
-                                    <img src="/static/img/top-news-4.jpg" alt="Business News" />
+                                    <img src="{{ url_for('static', filename='img/top-news-4.jpg') }}" alt="Business News" />
                                     <div class="tn-content">
                                         <div class="tn-content-inner">
                                             <span class="tn-date"><i class="far fa-clock"></i>6 hours ago</span>
@@ -142,7 +142,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="tn-img">
-                                    <img src="/static/img/top-news-5.jpg" alt="Health News" />
+                                    <img src="{{ url_for('static', filename='img/top-news-5.jpg') }}" alt="Health News" />
                                     <div class="tn-content">
                                         <div class="tn-content-inner">
                                             <span class="tn-date"><i class="far fa-clock"></i>8 hours ago</span>
@@ -168,7 +168,7 @@
                         <div class="row cn-slider">
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-1.jpg" alt="Football" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-1.jpg') }}" alt="Football" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
@@ -179,7 +179,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-2.jpg" alt="Basketball" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-2.jpg') }}" alt="Basketball" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
@@ -190,7 +190,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-3.jpg" alt="Tennis" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-3.jpg') }}" alt="Tennis" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>2 days ago</span>
@@ -206,7 +206,7 @@
                         <div class="row cn-slider">
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-4.jpg" alt="Smartphone" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-4.jpg') }}" alt="Smartphone" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -217,7 +217,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-5.jpg" alt="AI" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-5.jpg') }}" alt="AI" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -228,7 +228,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-6.jpg" alt="Cybersecurity" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-6.jpg') }}" alt="Cybersecurity" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
@@ -254,7 +254,7 @@
                         <div class="row cn-slider">
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-7.jpg" alt="Stock Market" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-7.jpg') }}" alt="Stock Market" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -265,7 +265,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-8.jpg" alt="Startup" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-8.jpg') }}" alt="Startup" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -276,7 +276,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-9.jpg" alt="Economy" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-9.jpg') }}" alt="Economy" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
@@ -292,7 +292,7 @@
                         <div class="row cn-slider">
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-10.jpg" alt="Movie" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-10.jpg') }}" alt="Movie" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -303,7 +303,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-11.jpg" alt="Music" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-11.jpg') }}" alt="Music" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Today</span>
@@ -314,7 +314,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="cn-img">
-                                    <img src="/static/img/cat-news-12.jpg" alt="Celebrity" />
+                                    <img src="{{ url_for('static', filename='img/cat-news-12.jpg') }}" alt="Celebrity" />
                                     <div class="cn-content">
                                         <div class="cn-content-inner">
                                             <span class="cn-date"><i class="far fa-clock"></i>Yesterday</span>
@@ -342,7 +342,7 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mn-img">
-                                            <img src="/static/img/latest-news.jpg" alt="Latest News" />
+                                            <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="Latest News" />
                                         </div>
                                         <div class="mn-content">
                                             <a class="mn-title" href="#">Government Announces New Economic Stimulus Package</a>
@@ -355,7 +355,7 @@
                                     <div class="col-lg-6">
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/latest-news.jpg" alt="News 1" />
+                                                <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="News 1" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">New Education Reform Bill Passed in Parliament</a>
@@ -364,7 +364,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/latest-news.jpg" alt="News 2" />
+                                                <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="News 2" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Major Infrastructure Project Approved</a>
@@ -373,7 +373,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/latest-news.jpg" alt="News 3" />
+                                                <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="News 3" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Healthcare System to Receive Major Upgrade</a>
@@ -382,7 +382,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/latest-news.jpg" alt="News 4" />
+                                                <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="News 4" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Environmental Protection Laws Strengthened</a>
@@ -391,7 +391,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/latest-news.jpg" alt="News 5" />
+                                                <img src="{{ url_for('static', filename='img/latest-news.jpg') }}" alt="News 5" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Tech Companies Announce Collaboration</a>
@@ -406,7 +406,7 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="mn-img">
-                                            <img src="/static/img/popular-news.jpg" alt="Popular News" />
+                                            <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular News" />
                                         </div>
                                         <div class="mn-content">
                                             <a class="mn-title" href="#">Revolutionary Medical Discovery Announced</a>
@@ -419,7 +419,7 @@
                                     <div class="col-lg-6">
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/popular-news.jpg" alt="Popular 1" />
+                                                <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular 1" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Space Mission Discovers New Planet</a>
@@ -428,7 +428,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/popular-news.jpg" alt="Popular 2" />
+                                                <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular 2" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Historic Peace Agreement Signed</a>
@@ -437,7 +437,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/popular-news.jpg" alt="Popular 3" />
+                                                <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular 3" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Record-Breaking Sports Achievement</a>
@@ -446,7 +446,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/popular-news.jpg" alt="Popular 4" />
+                                                <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular 4" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Major Film Festival Winners Announced</a>
@@ -455,7 +455,7 @@
                                         </div>
                                         <div class="mn-list">
                                             <div class="mn-img">
-                                                <img src="/static/img/popular-news.jpg" alt="Popular 5" />
+                                                <img src="{{ url_for('static', filename='img/popular-news.jpg') }}" alt="Popular 5" />
                                             </div>
                                             <div class="mn-content">
                                                 <a class="mn-title" href="#">Tech Innovation Award Winners Revealed</a>
@@ -508,7 +508,7 @@
                             <div class="sidebar-widget">
                                 <h2><i class="fas fa-ad"></i> Advertisement</h2>
                                 <div class="image">
-                                    <a href="#"><img src="/static/img/adds-1.jpg" alt="Advertisement"></a>
+                                    <a href="#"><img src="{{ url_for('static', filename='img/adds-1.jpg') }}" alt="Advertisement"></a>
                                 </div>
                             </div>
 
@@ -517,10 +517,10 @@
                                 <div class="image">
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <a href="#"><img src="/static/img/adds-2.jpg" alt="Partner 1"></a>
+                                            <a href="#"><img src="{{ url_for('static', filename='img/adds-2.jpg') }}" alt="Partner 1"></a>
                                         </div>
                                         <div class="col-sm-6">
-                                            <a href="#"><img src="/static/img/adds-2.jpg" alt="Partner 2"></a>
+                                            <a href="#"><img src="{{ url_for('static', filename='img/adds-2.jpg') }}" alt="Partner 2"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -624,12 +624,12 @@
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="/static/lib/easing/easing.min.js"></script>
-        <script src="/static/lib/slick/slick.min.js"></script>
+        <script src="{{ url_for('static', filename='lib/easing/easing.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='lib/slick/slick.min.js') }}"></script>
 
 
         <!-- Template Javascript -->
-        <script src="/static/js/main.js"></script>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
         
         <!-- Smooth Scroll Script -->
         <script>
