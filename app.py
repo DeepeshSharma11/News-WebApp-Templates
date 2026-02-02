@@ -62,3 +62,9 @@ async def news_home(request: Request):
 @app.get("/news/contact", response_class=HTMLResponse)
 async def news_contact(request: Request):
     return templates.TemplateResponse("contact.html", {"request": request})
+
+
+# Add this at the end of your app.py
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
